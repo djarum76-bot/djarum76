@@ -1,0 +1,87 @@
+@font-face{
+	font-family: modernline;
+	src: url("modernline.otf");
+}
+
+@font-face{
+	font-family: Boba Panda Font;
+	src: url("Boba Panda Font.otf");
+}
+
+body{
+	background-image: url("download (2).jpg");
+}
+
+h1{
+	font-family: modernline;
+	text-align: center;
+	height: 90px;
+	text-shadow: 5px 7px 10px 1px grey;
+	/*horizontal vertical blur spread color*/
+}
+
+.menu{
+	font-family: modernline;
+	font-size: 10px;
+	border-style: double;
+	border-color: black;
+	/*color: white;
+	background-color: black;*/
+	display: inline-block;
+	position: relative;
+	bottom: 90px;
+	border-radius: 100px;
+	border-color: aqua;
+	width: 30px;
+	height: 20px;
+	box-shadow: 5px 7px 10px 1px black;
+	transition: background 1s;
+	text-align: center;
+}
+
+.menu:hover{
+	background-color: white;
+	color: black;
+	transition: background red;
+}
+
+h2{
+	font-family: modernline;
+	text-decoration: underline;
+	position: absolute;
+	top: 70px;
+	font-weight: bolder;
+}
+
+div > p{
+	font-family: modernline;
+	text-decoration: underline;
+	clear: both;
+}
+
+.cup{
+	float: left;
+	width: 25%;
+	opacity: 50%;
+	transition: opacity 1s;
+}
+
+.cup:hover{
+	opacity: 100%;
+}
+
+.liga{
+	float: left;
+	width: 25%;
+	transform: translateZ(1px);
+	opacity: 50%;
+	transition: opacity 1s;
+}
+
+.liga:hover{
+	opacity: 100%;
+}
+
+div > fieldset{
+	font-family: Boba Panda Font;
+}
